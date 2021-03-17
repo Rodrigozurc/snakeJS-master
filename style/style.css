@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(41, 41, 41);
+    
+}
+
+h1{
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+
+h1:hover{
+    font-size: 40px;
+    color: rgb(165, 175, 167);
+}
+
+.main{
+  margin: 20px;
+  padding: 20px;
+}
+
+.canvas{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: rgb(81, 163, 70);
+    width: 512px;
+    height: 512px;
+    margin: 10px;
+}
+
+
